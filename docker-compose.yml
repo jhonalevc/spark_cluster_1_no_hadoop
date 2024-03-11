@@ -1,0 +1,94 @@
+version: "3.3"
+services:
+  spark-master:
+    image: spark-cluster-dfile:latest
+    ports:
+      - "9090:8080"
+      - "7077:7077"
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+       - /home/ubuntu-user/docker-spark-cluster:/home
+    environment:
+      - SPARK_LOCAL_IP=spark-master
+      - SPARK_WORKLOAD=master
+    restart: always
+  spark-worker-a:
+    image: spark-cluster-dfile:latest
+    ports:
+      - "9091:8080"
+      - "7000:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-a
+    volumes:
+       - /home/ubuntu-user/docker-spark-cluster:/home
+    restart: always
+  spark-worker-b:
+    image: spark-cluster-dfile:latest
+    ports:
+      - "9092:8080"
+      - "7001:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-b
+    volumes:
+        - /home/ubuntu-user/docker-spark-cluster:/home
+    restart: always
+  spark-worker-c:
+    image: spark-cluster-dfile:latest
+    ports:
+      - "9093:8080"
+      - "7002:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-c
+    volumes:
+        - /home/ubuntu-user/docker-spark-cluster:/home
+    restart: always
+  spark-worker-d:
+    image: spark-cluster-dfile:latest
+    ports:
+      - "9094:8080"
+      - "7003:7000"
+    depends_on:
+      - spark-master
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+      - SPARK_WORKER_CORES=1
+      - SPARK_WORKER_MEMORY=1G
+      - SPARK_DRIVER_MEMORY=1G
+      - SPARK_EXECUTOR_MEMORY=1G
+      - SPARK_WORKLOAD=worker
+      - SPARK_LOCAL_IP=spark-worker-d
+    volumes:
+        - /home/ubuntu-user/docker-spark-cluster:/home
+    restart: always
+  demo-database:
+    image: postgres:11.7-alpine
+    ports: 
+      - "5432:5432"
+    environment: 
+      - POSTGRES_PASSWORD=casa1234
+

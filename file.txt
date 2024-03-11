@@ -1,0 +1,209 @@
+Después los saltimbanquis fueron duquistas y aplaudían al joven mandatario, a quien solo le exigían en señal de reciprocidad que les conservara las suculentas cuotas de poder burocrático, presupuestal y contractual que habían logrado amasar en los gobiernos anteriores.
+La consagración de los saltimbanquis, doble salto de espaldas con rebote a la izquierda para caer de pie, llegó con su aterrizaje olímpico en los brazos de Gustavo Petro. Sabían que a Petro en la precampaña del 2022 le faltaban cinco centavos para el peso, y ellos con sus maquinarias, clientelas y botines estatales estaban en condiciones de aportarlos sumándose a purasangres como Bolívares, Rusinques y otros menos vistosos pero más cercanos a Petro como Eduardo Noriega, Augusto Rodríguez, Dagoberto Quiroga o Carlos Ramón González, entre otros compañeros de universidad o de militancia en el M-19.
+Y así los saltimbanquis lograron una hazaña desvergonzada que les permitió pasar cuantiosa factura. En un principio los saltimbanquis se camuflaron entre las prestigiosas hojas de vida de técnicos no uribistas que llegaron a altas posiciones del Estado, pero que fueron saliendo uno a uno del gobierno como José Antonio Ocampo, Cecilia López, Jorge Iván González o Alejandro Gaviria. Así, el pastel quedó para repartirse casi exclusivamente entre purasangres y saltimbanquis. No hay más. Y los purasangres golearon a los saltimbanquis en el último ‘round’.
+La moñona de nombramientos de las últimas semanas refleja la fatiga del Presidente con los saltimbanquis que en cualquier momento lo abandonan o lo traicionan si las cosas se complican (si ya traicionaron y abandonaron a Uribe, Santos y Duque, ¿por qué no habrían de hacer lo mismo con él?), acompañado por el triunfo de los purasangres doctrinarios como Gustavo Bolívar, nuevo director del multibillonario Departamento de Prosperidad Social; Carlos Ramón González , nuevo director de la estratégica Agencia de Inteligencia; Carlos Carrillo, nuevo director de la saqueada y pestilente Unidad del Riesgo, o Cielo Rusinque, nueva superintendente de la poderosa Superintendencia de Industria y Comercio.
+Seguramente el Presidente sabe que la barrida de la tecnocracia implica riesgos y que un gobierno con pocos ejecutivos y muchos activistas ideologizados puede volverse inoperante así sea políticamente eficaz de cara a unas elecciones. Y sabe para dónde va.
+Su nuevo mapa de nombramientos y sus últimas intervenciones públicas lo que demuestran es que Petro no está dispuesto a dejarse derrotar fácil y que lejos de asumir un perfil más conciliador insistirá en el tono combativo, beligerante y radical que lo llevó a la Presidencia.
+El triunfo de los purasangres sobre los saltimbanquis lo que anticipa es que a la oposición le va a quedar más dura su tarea y que a nada bueno llegarán los opositores si siguen cada uno por su lado ladrándole a la luna, sin un discurso popular sólido y disputándose a dentelladas el favor de los altos estratos sin dar la verdadera batalla en la base popular.
+Petro está cerrando filas y eso no es para rendirse ni para claudicar, sino para recuperar el terreno que ha perdido, darle vuelta a la torta y conservar el poder en el 2026.
+Quedan advertidos, señoras y señores que se quieren autoproclamar como líderes de la opoData transformations
+So, what are transformations? When you create a process app, you want to make sure the data used in the process app accurately reflects your business process. With data transformations written in SQL, you can customize the data used for Process Mining and create your own event log.
+
+As you begin editing data transformations, we strongly recommend that you:
+
+Have in-depth knowledge of SQL—(don’t worry, we’ve got you covered with tips and tricks for writing SQL transformations).
+Are familiar with the source system used for data extraction.
+Involve the process owners or domain experts—they have the process expertise to help you ensure the process app contains the right information.
+Check out the documentation for more info on how to edit the transformations of your app.
+
+Input queries
+
+The first step in setting up your transformations is to define the input queries. These should list the set of tables and fields you want to load from the extracted data, and which data types they have. Specifically, it’s important to make sure that the datetime format in your input data is set properly. Please see the documentation for more information on the structure of transformations.
+
+Entity queries
+
+Next, the business objects that are used in your process should be defined. For example, in a Lead-to-Order process, the typical entity tables would be Lead, Opportunity, and Order. This step usually requires you to join several input tables, and to clean up the data records that shouldn't be loaded. For more information, see the documentation.
+
+Event queries
+
+Then, you need to define a set of events. How you do this depends on the format of your input data. If the format of the input data is a transaction log, then link the data records to your entities.
+
+If the events are captured in the data as timestamp fields, then follow another approach. For example, in case your Lead table contains a “Lead created” field, convert that into separate event records. For each datetime field that should become an event, a new set of records should be created.
+
+Business logic
+
+Finally, it’s time to enrich the data with business logic that you want to use in your data analysis. You can add derived fields in your transformation to calculate business definitions for desired throughput times, deadlines, categorizations, etc. In UiPath Process Mining, you can define a set of tags to mark specific cases with useful properties that you want to monitor. For example “No approval done”, “Goods delivered too late”, “Four eyes principle violated”.sición: Petro, rodeado por sus cuadros más leales de purasangres, va con toda. La campaña ya empezó.
+
+The output of transformations must match the set of fields expected by the process app. Make sure that your fields have the correct data types, and that the names are provided in the proper cases. If you want to add custom fields to your process apps, you can rename them in the process app, using the data manager.
+
+And then you're ready! Using your custom transformations, you can load the new data into your process app and start Process Mining. From this point on you can iterate and add more data incrementally to gain more insights about your business process.
+
+The smaller the initial dataset, the faster you can get started with Process Mining. So, we always advise putting special care into defining the very minimal dataset required to light up your Process Mining app.
+
+Unlock the power of Process Mining today
+Process Mining is a powerful tool for optimizing operations and gaining valuable business insights to automate and improve processes. In this blog post, we discussed the essential steps to connect and transform your data, to provide accurate and impactful results.
+
+Remember the importance of well-designed event logs, iterative data transformation refinement, and documentation for future analyses. By applying these principles, you can begin using Process Mining to begin automating and transforming your business processes.  We use cookies to analyze traffic and deliver personalized content. Click “Accept and Continue” to allow all cookies. Click "View cookie settings" to allow certain categories of cookies. Click the “X” to only allow cookies vital to the website running. Update your cookie settings from our Cookie Policy.Process mining: what is it and what are the benefits?
+Process mining is a data mining technique used to help an organization achieve better process performance and efficiency. It provides an understanding of how business processes are actually being executed in an organization, enabling more efficient and effective business operations.
+
+What are common uses for process mining?
+There are four common uses for process mining:
+
+1. Process discovery: To identify the true state of processes, tasks and the use of key IT systems;
+
+2. Conformance checking: to gain compliance with organization policies and regulations;
+
+3. Root cause analysis: to analyze the root causes of process performance issues, including bottlenecks, delays, and inefficiencies in business processes.
+
+4. Process optimization: process mining can be used to optimize existing processes for improved performance and efficiency, for example, through task automation.
+
+Growing demand in process mining
+Process mining is not a new technology but has recently increased in popularity as more enterprise organizations look to increase digitalization and business process automation. Gartner estimates that the market has grown to over $2bn in revenue in 2023. 
+
+What is the key difference between Celonis and UiPath?
+Celonis is a execution management platform that uses process mining to analyze data to provide insights which can help organizations improve performance. UiPath is an enterprise automation platform that uses process and task mining to identify automation opportunities.
+
+What is Celonis
+Celonis is a process mining and intelligent automation platform that allows companies to improve their business processes through a platform called the “Execution Management System” (EMS). It does this by giving users visibility and insights into the performance of their processes through extracting and analyzing event logs from different data sources, for example, ERP or CMS systems. Celonis EMS also allows users to identify bottlenecks, discover inefficiencies, and optimize processes.
+
+Celonis was one of the first commercially available process mining solutions and is today a recognized market leader in the category. Since 2011 the company has grown rapidly and now has a market valuation over $13 billion. Celonis has over 3000 customers across most industries, mostly in North America and Europe.
+
+Key features of Celonis Process Mining
+Enterprise focus: Celonis provides a deep level of service, security and process data management for the needs of large enterprise organizations. ‍
+Event log extraction: Celonis have a large customer base and broad experience in extracting event logs from different source systems, especially popular ERPs such as SAP and Oracle.‍
+Wide partner network: Celonis has over 170 partner agencies that provide implementation consulting services.
+According to Gartner, the top 5 alternatives and competitors to Celonis are:
+
+SAP Signavio Process Intelligence
+IBM Process Mining
+Soroco Scout Platform
+Software AG ARIS Process Mining 10
+UiPath Platform
+Source: Gartner Peer Insights
+
+What is UiPath
+UiPath is a leading process automation and orchestration platform. It provides a suite of tools to help automate processes, including an easy-to-use visual workflow designer, a powerful robotic automation platform, and an AI-powered document processing component. 
+
+UiPath was a pioneer in robotic process automation (RPA). It has over 40 offices and 10,000 customers worldwide ranging from independent RPA developers to large enterprise businesses such as Verizon, Coca-Cola and Takeda Pharmaceuticals.
+
+UiPath Process Mining
+UiPath’s process mining tool has been integrated to the platform through the acquisition of ProcessGold in 2019. The ProcessGold solution included process mining, process monitoring and business intelligence functionality was packaged together under the name ProcessGold Enterprise Platform. Today the solution goes by the name UiPath Process Mining.
+
+UiPath Task Capture
+UiPath Task Capture is a process discovery tool that gives automation ideas related to task automation and the adoption of RPA. In practice, UiPath Task capture is a program downloaded and installed on user computers that helps you diagram and capture activities from the user interface using task capture technology.
+
+Key features of UiPath
+Automation suite: All-in-one platform for automation including RPA, low-code app development and integrations.
+Accessible and scalable: UiPath is relatively quick to start to use, starting from free-to-try UiPath Cloud Platform.
+Trainings: Broad set of training materials for intelligent automation, including the UiPath Academy and certifications
+In Gartner’s view the top five alternatives and competitors to UiPath are:
+
+Automation 360
+Blue Prism Intelligent Automation
+Datamatics TruBot
+AutomationEdge
+Appian RPA
+Source: Gartner Peer Insights
+
+Celonis vs UiPath Process Mining Comparison
+When comparing Celonis and UiPath process mining functionality, it is important to consider the different aspects of each tool. Here we look at four key criteria: ease of deployment, data visualizations, automation capabilities, and pricing.
+
+Ease of deployment
+A key element of any process mining solution is the ease of deployment. Most process mining tools depend on extracting and loading event logs from different source systems for process analysis, but different solution providers have their own approaches to data ingestion.
+
+Celonis Process Mining Deployment
+Celonis is known for being an enterprise-grade tool that requires significant time and resources for deployment. Every source system needs to be integrated separately, and overall, the management of different types of connections may require significant resources and data engineering skills to set up.
+
+Once fully set up Celonis is able to extract large amounts of data quickly and accurately through different methods. Celonis offers automated integration solutions to widely used ERP systems, such as SAP, a configurable self-service data extractor and the ability to upload process data files, such as .xlsx or .xes.
+
+UiPath Process Mining Deployment
+UiPath is considerably easier deploy than Celonis but it still requires integrations to different source systems. UiPath is able to extract data from multiple sources but it’s data extraction capabilities are more limited than Celonis. Data can be uploaded using a Basic Connector capable of reading .csv and other machine readable file types. UiPath also has a native data extractor to SAP. On the other hand, UiPath’s data integration capabilities within the Automation Suite are extensive, allowing for a deep integration to UiPath’s automation solutions.
+
+Visualizations and Analytics
+Another key feature of process mining tools is the ability to visualize key processes and draw insights from actionable process analytics. Different process mining solutions look similar on the surface but major differences come in the details.
+
+Celonis Process Analytics
+Celonis provides a broad range of ready-made charts and views, including OLAP tables, column charts, pie charts, scatter plots and donut charts.
+
+‍
+
+Celonis Process Mining Example
+Celonis Process Mining - source: celonis.com
+‍
+
+‍
+
+Dashboards within Celonis can be configured easily using a visual editor and adjusted with a code editor. Celonis provides many of the process mining visualizations and analytics including process variations and task analysis.
+
+UiPath Process Analytics
+UiPath Process Mining provides a number of ready-made templates and dashboards for process analytics, eg. for purchase-to-pay (P2P) and order-to-cash (O2C) use cases.
+
+‍
+
+
+UiPath Process Mining - source: uipath.com
+‍
+
+‍
+
+UiPath Process Mining dashboards can be resized and configured through a dashboard editor. UiPath also offers process simulation capabilities, allowing for the visualization of scenarios, such as increased automation.
+
+Process Automation Enablers
+Another popular use-case of process mining solutions is to enable intelligent automation. Most process mining solutions offer process discovery functionality that highlight opportunities to automate key processes or tasks. 
+
+Celonis Automation Enablers
+Celonis offers a range of advanced automation features, claiming it can perform up to 5000 automation tasks per hour. Over 500 different automation solutions and bots can be found in the Celonis EMS store, with native integrations especially to major ERPs such as SAP and Oracle.
+
+UiPath Automation Enablers
+UiPath has a broader range of automation capabilities than Celonis and is broadly considered the leader in the RPA space. It provides an easy-to-use visual workflow designer and robotic automation platform through the UiPath Studio. In addition, it offers a broad set of enterprise automation tools through the UiPath Orchestrator. 
+
+Process Mining Pricing
+Most process mining solutions are offered depending on the complexity of needs of the client using Software-as-a-Service (SaaS) pricing. The pricing mentioned below is only indicative based on openly available data and in most cases the pricing will vary depending on the level of integration, implementation and training support needed.
+
+Celonis Process Mining Pricing
+Celonis offers various pricing options from a free-to-try Celonis EMS plan to enterprise-level subscriptions. For small and medium sized businesses prices start from $90,000 for a 3 year contract. Source: Amazon AWS Marketplace.
+
+UiPath Process Mining Pricing
+UiPath Process Mining is offered under the Enterprise plan. The cost may vary how extensively the service is configured or bundled with other UiPath services. One estimate of cost is $40,000 annually. Source: peerspot.com  
+
+A third alternative - Workfellow
+While Celonis and UiPath are popular options for process mining, there is a third emerging option in Workfellow. Workfellow is the first commercially available AI-powered hybrid process intelligence solution combining process mining and task mining into one solution. 
+
+Workfellow is a new VC-funded startup founded in 2019 specializing in process intelligence software. Workfellow has customers across different industries from logistics to consumer goods, and especially knowledge-intensive work including banking, financial services and insurance. Read a case-study how one medium-sized accounting firm uncovered over € 2 million ($2.17 million) in process waste.
+
+
+Workfellow Process Mining - source: workfellow.ai
+Key features of Workfellow
+Ease of deployment: Workfellow does not require access to event logs, instead it generates event logs automatically through a method called Work API.
+End-to-end analysis: Through Work API Workfellow is able to track tasks and process flows across different business apps, allowing for end-to-end analysis of workflows.
+Automated insights: Workfellow includes ready-made dashboards and provides automated insights within it’s analytics.‍
+Level of privacy: Workfellow is a GDPR-free solution that does not process personally identifiable data.
+For more information on hybrid process intelligence read the Work API Whitepaper. 💡
+
+Workfellow Process Mining Deployment
+Workfellow is currently one of the fastest process mining tools to deploy available in the market. Most customers will have data and insights available within 30 days. Workfellow uses plug-and-play data capture functionality that can capture relevant business objects from any business application without the need to integrate and mine event logs. The major advantage of this approach is that it is up to 10x faster than conventional process mining. Most Workfellow customers are able to gather actionable insights within 30 days with effortless implementation without the need for extensive data engineering resources.
+
+Workfellow Process Visualizations
+Workfellow provides advanced and configurable process and task visualization options for the broadest set of use-cases. The key advantage is that Workfellow can track both the flow and time of activities, processes and tasks across different business applications.
+
+In addition to process and task visualizations Workfellow gives unrivalled granularity into the cost and time of complex workflows across different business applications.  
+
+Workfellow Automation Enablers
+Workfellow is the first process intelligence tool that includes intelligent automation opportunity identification. It provides automated recommendations of where business processes can be automated and the estimated impact automation can bring. In addition, Workfellow can be used to track the impact of automation projects on key performance indicators. 
+
+Workfellow Pricing
+Workfellow is offered on a simple Software-as-a-Service basis where you only pay for the amount of workstations connected to Work API. The minimum number for Work API connections is 50 workstations. Typically the cost of ownership for clients has been up to 3x lower than the well-known alternative. For more information on pricing, contact us.
+
+Celonis vs. UiPath Process Mining Summary
+Both Celonis and UiPath are powerful process mining and automation tools. Celonis offers enterprise-level event log mining and configurable analytics capabilities, while UiPath offers an easy-to-use visual workflow designer connected to an advanced robotic automation platform. Depending on the needs of the company, either one of these tools can be a great option.
+
+Who should use Celonis?
+Celonis can be ideal for a large organizations with significant data science resources with most of their workflows and processes within a single ERP system, such as SAP. 
+
+Who should use UiPath?
+UiPath is well suited for an enterprise or automation consultant with a strong focus on RPA looking to advance their intelligent automation through a single-suite platform. 
+
+Who should use Workfellow?
+Workfellow is a good option for any organization that doesn’t have extensive data science and process mining resources in-house looking for an effortless and fast way to gain process intelligence without data mining hassle.
+
+If you’re open to new and simpler approaches to process mining - consider requesting a demo of Workfellow Process Intelligence.
